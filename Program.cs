@@ -10,7 +10,12 @@ namespace HelloWorldConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine(GetHelloWorld());
+        }
+
+        static string GetHelloWorld()
+        {
+            return "Hello World";
         }
     }
 }
